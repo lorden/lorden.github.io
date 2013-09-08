@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Diego Lorden</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+	$('#me').parallax("80%", 1.5);
+	$('#linkedin').parallax("30%", 0.6);
+	$('#github').parallax("70%", 0.6);
+	$('#blog').parallax("40%", 0.6);
+	$('#nutenstudio').parallax("50%", 0.6);
+
+  $('#linkedin').on('click', function(){
+    window.location = 'http://linkedin.com/in/diegolorden';
+  });
+  $('#github').on('click', function(){
+    window.location = 'https://github.com/lorden';
+  });
+  $('#blog').on('click', function(){
+    window.location = 'http://blog.nutenstudio.com/';
+  });
+  $('#nutenstudio').on('click', function(){
+    window.location = 'http://nutenstudio.com/';
+  });
+
+})
+</script>
+
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Josefin+Sans:600|Amatic+SC:700" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="me">
+		<div class="story">
+	    	<div class="float-left">
+			    <h2>Hello, I'm Diego</h2>
+	          <p>I am a software engineer.</p>
+	          <p>I live in San Francisco.</p>
+            <p>I love everything web and everything open source.</p>
+            <p>Scroll for more...</p>
+	        </div>
+	    </div>
+	</div>
+	
+	<div id="linkedin">
+		<div class="story">
+	    	<div class="float-right">
+	            <h2>I work</h2>
+	            <p>Learn more about my past experiences and my current works in my LinkedIn profile.</p>
+              <p>From my initial adventures operating obscure mainframes at IBM to my most recent experiences in the startup world in Silicon Valley.</p>
+	        </div>
+	    </div>
+	</div>
+	
+	<div id="github">
+		<div class="story">
+	    	<div class="float-left">
+			    <h2>I code</h2>
+	          <p>I host my personal projects on Github. You will find projects implementing different technologies:</p>
+            <ul>
+              <li>Python, Flask</li>
+              <li>PHP</li>
+              <li>Javascript, jQuery, jQuery Mobile, Backbone.js</li>
+              <li>CSS3, Bootstrap, Foundation</li>
+            </ul>
+	        </div>
+	    </div>
+	</div>
+	
+	<div id="blog">
+		<div class="story">
+	    	<div class="float-right">
+	            <h2>I blog</h2>
+	            <p>I blog from time to time about problems I encountered and how I solved them, or at least tried to.</p>
+              <p>You will find posts about web development, from tips on designing on GIMP to performance optimization way back in the servers.</p>
+	        </div>
+	    </div>
+	</div>
+
+	<div id="nutenstudio">
+		<div class="story">
+	    	<div class="float-left">
+			    <h2>I freelanced</h2>
+	          <p>I've spent 3 years working as a contractor for multiple clients.</p>
+            <p>I've developed many web sites and apps from a WAP site for a major credit union to a travel agency website. Check out the portfolio by clicking here.</p>
+	        </div>
+	    </div>
+	</div>
+
+  <footer>
+  <p>
+    <span class="sans">All the links:</span> 
+    <a href="http://linkedin.com">LinkedIn</a> .
+    <a href="https://github.com/lorden">GitHub</a> .
+    <a href="http://blog.nutenstudio.com">Blog</a> .
+    <a href="http://nutenstudio.com">nutenStudio</a> .
+    <a href="http://twitter.com/dlorden">Twitter</a>
+  </p>
+  </footer>
+</body>
+</html>
