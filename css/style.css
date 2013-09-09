@@ -107,14 +107,14 @@ h2{
   cursor: pointer;
 }
 
-.story{
+.content{
 	margin: 0 auto;
 	min-width: 980px;
 	overflow: auto;
 	width: 980px;
 }
 
-.story .float-left, .story .float-right{
+.content .float-left, .content .float-right{
 	padding: 100px 0 0 0;
 	position: relative;
 	width: 450px;	
@@ -135,7 +135,9 @@ footer p {
   margin: 0;
 }
 
-footer a, footer a:hover, footer a:visited {
+footer a,
+footer a:hover,
+footer a:visited {
   color: white;
   text-decoration: none;
 }
