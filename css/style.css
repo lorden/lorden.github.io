@@ -156,6 +156,17 @@ footer h3 {
   right: 0;
 }
 
+footer img.social-icon {
+  margin: 2rem;
+  width: 50px;
+} 
+
+@media only screen and (min-width: 48em) img.social-icon {
+  margin: 2rem;
+  width: 120px;
+}
+
+
 /* Form */
 form {
   width: 25.4rem;
