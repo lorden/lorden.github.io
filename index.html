@@ -3,23 +3,64 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Diego Lorden</title>
-    <link rel="icon" type="image/png" href="/img/diegolorden64.png" />
+    <meta name="theme-color" content="#44749D">
+    <link rel="icon" type="image/png" href="/img/icon.png" />
+    <link rel="stylesheet" href="css/flexboxgrid.min.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400">
   </head>
 
   <body>
-    <div id="main">
-      <div>
-      <img src="img/diegolorden.png" alt="Diego Lorden" class="profile-picture"/>
+    <header>
+      <img src="img/logo.svg" alt="Diego Lorden" />
+      <h1>Hi! I'm Diego,<br>software engineer.</h1>
+      <h2 class="small"></h2>
+    </header>
+    <section class="city">
+      <h3>I've been in the tech industry since 2008 and I live in the San Francisco Bay Area.</h3>
+      <p>I've worked with big companies and small startups.</p>
+      <p>I've completed projects for many clients around the globe.</p>
+      <p>Now I'm ready to work on your project.</p>
+    </section>
+    <section class="white">
+      <h3>What can I do for you?</h3>
+      <div class="row">
+        <div class="service col-sm-12 col-md-offset-2 col-md-4">
+          <img src="img/code.png" alt="Web app development"/>
+          <h4>Web app development</h4>
+          <p class="description">I can help you build that prototype you want to test or add features to your current application. I work across the stack, specializing in backend technologies.</p>
+        </div>
+        <div class="service col-sm-12 col-md-4">
+          <img src="img/speed.png" alt="Web app optimization"/>
+          <h4>Web app optimization</h4>
+          <p class="description">It's very likely that your application is not performing as optimally as it could be. I can help you optimize databases, backend code, assets, server setup and pretty much everything that your application touches.</p>
+        </div>
       </div>
-      <h1>Diego Lorden</h1>
-      <p>Software Engineer</p>
-      <div class="icons">
-        <a href="https://linkedin.com/in/diegolorden"><i class="fa fa-linkedin-square"></i></a>
-        <a href="https://github.com/lorden"><i class="fa fa-github-square"></i></a>
-        <a href="https://twitter.com/dlorden"><i class="fa fa-twitter-square"></i></a>
+      <div class="row">
+        <div class="service col-sm-12 col-md-offset-2 col-md-4">
+          <img src="img/gears.png" alt="Server setup"/>
+          <h4>Server setup</h4>
+          <p class="description">Whether you need to setup a web application in AWS or you want to deploy a project to some obscure datacenter I can help you!<br>I've managed many servers; I specialize in Ubuntu machines but I can handle any Linux configuration you want to use.</p>
+        </div>
+        <div class="service col-sm-12 col-md-4">
+          <img src="img/tux.png" alt="Linux training"/>
+          <h4>GNU/Linux training</h4>
+          <p class="description">As a GNU/Linux heavy user I have gained the experience to teach and mentor other engineers. From server setup and optimization to daily tasks on your work computer, I can show you how to get things done more efficiently.</p>
+        </div>
       </div>
-    </div>
+    </section>
+    <section class="bay">
+      <h3>Some fun things I've made</h3>
+      <p>
+        <a href="http://pstorpdt.com"><button>PST or PDT?</button></a>
+        <a href="https://github.com/lorden/pep8meter"><button>PEP8meter</button></a>
+        <a href="https://github.com/lorden/freeplay"><button>Freeplay</button></a>
+      </p>
+    </section>
+    <footer>
+      <iframe src="https://docs.google.com/forms/d/110f34aiyPSnhRq8En8TRzoell9H3-iuJWy7WjaaboIo/viewform?embedded=true" width="760" height="950" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+      <h3>Contact me</h3>
+    </footer>
   </body>
 </html>
